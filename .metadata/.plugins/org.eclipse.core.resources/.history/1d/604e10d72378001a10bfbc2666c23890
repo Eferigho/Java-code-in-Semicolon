@@ -1,0 +1,33 @@
+package chapter7;
+
+import java.util.Arrays;
+
+public class TotalSalesTwoDim {
+
+	public static void main(String[] args) {
+		
+		SaleSlip sp = new SaleSlip();
+		
+		int[][]comPlusTotalSales = new int[5][4];
+		int productNumber = 0;
+		int productPrice = 0;
+		int salesPersonNumber = 0;
+		
+		for(int[] currentRow  : comPlusTotalSales) {
+			for(int currentSale : currentRow) {
+				sp.setSalesPersonNumber();
+				salesPersonNumber = sp.getSalesPersonNumber();
+				sp.setProductNumber();
+				productNumber = sp.getProductNumber();
+				sp.setProductPrice();
+				productPrice = sp.getProductPrice();
+				comPlusTotalSales[salesPersonNumber][productNumber] = productPrice;
+			}
+			
+		}
+		System.out.println(Arrays.deepToString(comPlusTotalSales));
+		
+
+	}
+
+}

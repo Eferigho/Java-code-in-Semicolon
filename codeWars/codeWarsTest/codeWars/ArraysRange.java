@@ -1,0 +1,36 @@
+package codeWars;
+import java.util.Scanner;
+public class ArraysRange {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scan = new Scanner(System.in);
+		
+		
+		int sum = 0;
+		int counter = 1;
+		
+		int n = counter;
+		int [] test = new int[n+1];
+		
+		while(counter != -1) {
+			
+			System.out.println("Enter value for Array");
+			
+			 test[n] = scan.nextInt();
+				counter = test[n];
+				if(counter == -1) {
+					break;
+				}
+				else {
+					 sum = sum + test[n];
+				}
+				
+			 counter++;
+			 
+		}
+		System.out.printf("The Sum is : %d",test);
+		
+	}
+}

@@ -1,0 +1,35 @@
+package Chapter5;
+
+public class HalloTriangel {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		for(int i = 1; i <= 10;i++) {
+			int j = 1;
+			for(; j <= 10;j++) {
+				if((i == 1)||(j + i == 1) || (j - 1 == 0) || (j + i == 11)) {
+					System.out.print('*');
+				}
+				else {
+					System.out.print(' ');
+				}	
+			}
+			for(int sp = 4; sp <= 5; sp++) {
+				System.out.print(' ');
+			}
+			
+			for(int y = 1; y <= 10;y++) {
+				if((i == 1)||(y + i == 1) || (y - 1 == 9) || (y - i == 0)) {
+					System.out.print('*');
+				}
+				else {
+					System.out.print(' ');
+				}
+			}
+			System.out.println();
+		}
+		
+	}
+
+}

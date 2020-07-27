@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Reversal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter Any Number to reverse");
+		int number = scan.nextInt();
+		int reverse = 0;
+		
+		for(; number > 0; number = number / 10) {
+			 
+			reverse = reverse * 10;
+			reverse = reverse + number % 10;
+			
+		}
+
+		System.out.printf("%d", reverse);
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;row1&apos; in &apos;Chapter6.SquareMethod.asterisk(...)&apos; to &apos;row&apos;&#x0D;&#x0A;- Original project: &apos;ConditionalFlow&apos;&#x0D;&#x0A;- Original element: &apos;Chapter6.SquareMethod.asterisk(int, char).row1&apos;&#x0D;&#x0A;- Renamed element: &apos;row1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;row1&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;Chapter6{SquareMethod.java[SquareMethod~asterisk~I~C@row1!585!593!590!593!C!0!true" name="row" references="true" stamp="1580629206486" version="1.0"/>
+</session>

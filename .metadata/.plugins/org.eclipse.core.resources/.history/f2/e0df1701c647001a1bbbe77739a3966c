@@ -1,0 +1,12 @@
+
+public class TelevisionTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Television lg = new Television();
+		
+		System.out.println("You are watching : "+lg.getChannelName(9));
+	}
+
+}

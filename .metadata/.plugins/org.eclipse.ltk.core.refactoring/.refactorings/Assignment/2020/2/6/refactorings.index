@@ -1,0 +1,5 @@
+1580869911571	Encapsulate field 'channelName'
+1580869919163	Encapsulate field 'channelId'
+1580869926704	Encapsulate field 'volume'
+1580869933549	Encapsulate field 'tvSate'
+1580876142410	Rename method 'getChannelName'

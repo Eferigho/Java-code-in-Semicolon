@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;power&apos; in &apos;Chapter6.integerPower.intPower(...)&apos; to &apos;exponent&apos;&#x0D;&#x0A;- Original project: &apos;ConditionalFlow&apos;&#x0D;&#x0A;- Original element: &apos;Chapter6.integerPower.intPower(int, int).power&apos;&#x0D;&#x0A;- Renamed element: &apos;power&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;power&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;Chapter6{integerPower.java[integerPower~intPower~I~I@power!187!195!191!195!I!0!true" name="exponent" references="true" stamp="1580578969599" version="1.0"/>
+</session>

@@ -1,0 +1,28 @@
+package Chapter5;
+
+public class PythagorasTriple {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		double y = 3;
+		double i = 2;
+		for(int x = 1;x < 50; x++) {
+			y = y * y;
+			i = i * i;
+			double j = y + i;
+		    double hypo =	j*j;
+			System.out.printf("%.0f  		%.0f  		%.0f%n", y,i,hypo);
+			
+		}
+		/*
+		Moore Law
+		int x = 2, y = 8, a = 3, b = 4, g = 9 , i = 6, j =1;
+		System.out.println(!(x < 5) && !(y >= 7));
+		System.out.println(!(a == b) || !(g != 5));
+		System.out.println(!((x <= 8) && (y > 4)));
+		System.out.println(!((i > 4) || (j <= 6)));*/
+	}
+
+}

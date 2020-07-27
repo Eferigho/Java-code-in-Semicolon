@@ -1,0 +1,39 @@
+package Chapter5;
+import java.util.Scanner;
+public class ModeAndMean {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scan = new Scanner(System.in);
+		int total = 0;
+		int mean = 0;
+		int mode = 0;
+		System.out.println("Enter Student Scores or 51 to terminate");
+		int score =scan.nextInt();
+		if(score != -1) {
+			while(score != -1) {
+				if(score <= 50) {
+					mode++;
+					total = total + score;
+					mean = total / mode;
+					System.out.println("Enter Student Scores, but scores above 51 will not be calculated");
+					score = scan.nextInt();
+				}
+				else {
+					System.out.println("Enter Student Scores or 51 to terminate, but scores above 51 will not be calculated");
+					score = scan.nextInt();
+				}
+				
+			}
+		}
+		else {
+			
+		}
+		System.out.printf("The Total scores : %d%n", total);
+		System.out.printf("The mean  is : %d%n", mean);
+		System.out.printf("The Frequency below 50 : %d%n", mode);
+		
+	}
+
+}

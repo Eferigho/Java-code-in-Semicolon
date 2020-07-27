@@ -1,0 +1,31 @@
+package Chapter5;
+
+public class ClassWork {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/* write a code
+		 * 
+		 * 
+		 */
+		int i = 1;
+		int j = 2;
+		int result;
+		while(i <= 20){
+			
+				result = j + i + 6;
+				
+				System.out.printf("%d + %d = %d%n",i, j,result);
+				if( result == 21) {
+					System.out.printf("This number plus 6 is equal to %d",i);
+					continue;
+				}
+				i++;
+				j++;
+				
+	
+		}
+	}
+
+}

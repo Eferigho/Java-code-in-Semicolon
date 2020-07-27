@@ -1,0 +1,22 @@
+package Chapter5;
+
+public class ClassWork {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/* write a code
+		 * 
+		 * 
+		 */
+		int i = 1;
+		while(i <= 20){
+			if(i + i + 7 == 21) {
+				System.out.printf("This number plus 7 is equal to 21",i);
+				break;
+			}
+			i++;
+		}
+	}
+
+}

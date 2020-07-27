@@ -1,0 +1,23 @@
+public class Sales{
+	public static void main(String...args) {
+		
+		
+		int firstRange = 0;
+		for(int range = 0; range < 10; range++) {
+			System.out.println(getSalary(range));
+		}
+		System.out.printf("200 - 299 is : %d ",firstRange );
+	}
+	
+	public static int getSalary(int index) {
+		int[] grossSales = {1500,600,3200,2200,780,1000,5600,400,1230};
+		double grossPercent = 0.09;
+		int weeklyPay = 200;
+		int salary = 0;
+		
+			salary = (int) (grossSales[index] * grossPercent) + weeklyPay;
+		
+		return salary;
+	}
+	
+}

@@ -1,0 +1,18 @@
+
+public class TelevisionTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Television lg = new Television();
+		lg.setChannelId(-1);
+		System.out.println(lg.getChannelId());
+		lg.changeChannelUp();
+		System.out.println(lg.getChannelId());
+		lg.changeChannelDown();
+		System.out.println(lg.getChannelId());
+		
+		//System.out.println("You are watching : "+lg.getChannelName(11));
+	}
+
+}

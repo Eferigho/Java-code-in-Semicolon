@@ -1,0 +1,28 @@
+package codeWars;
+import java.util.Scanner;
+public class ArraysRange {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter any value");
+		int newValue = scan.nextInt();
+		int [] ar = {};
+		int index = 1;
+		int sum =0;
+		for(int i = 1; i <= 5; i++) {
+			System.out.println("Enter any value");
+			newValue = scan.nextInt();
+			for(int j= ar.length+1; j > index; j++){
+			    ar[j] = ar[j-1];
+			 }
+			   ar[index] = newValue;
+			    
+			    sum =  sum + ar[newValue];
+		}
+		System.out.println(sum);
+		
+}
+}

@@ -1,0 +1,18 @@
+package chapter7;
+
+import java.util.Arrays;
+
+public class TotalSalesTwoDim {
+
+	public static void main(String[] args) {
+		
+		SaleSlip sp = new SaleSlip();
+		
+		int[][]comPlusTotalSales = new int[4][5];
+		
+		
+		System.out.println(Arrays.deepToString(comPlusTotalSales));
+
+	}
+
+}

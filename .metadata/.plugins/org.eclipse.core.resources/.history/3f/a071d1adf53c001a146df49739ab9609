@@ -1,0 +1,18 @@
+package Chapter5;
+
+import java.security.SecureRandom;
+
+public class Random20 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		SecureRandom secureRandom = new SecureRandom();
+		for(int i = 1; i <= 20; i++) {
+			double x = 3 * secureRandom.nextInt(2);
+			System.out.printf(" %.0f%n",x);
+		}
+		
+	}
+
+}

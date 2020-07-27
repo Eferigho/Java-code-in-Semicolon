@@ -1,0 +1,29 @@
+
+public class TwoDimensionalArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int [] ourAge = {1993,1994,1995,1996,1997};
+		//System.out.println(myAge(1993));
+		System.out.println(groupAge(ourAge));
+	}
+
+	public static int myAge(int birthYear) {
+		int myAge = 2020 - birthYear;
+		
+		return myAge;
+	}
+	
+	public static int groupAge(int []groupBirthYear) {
+		int [] groupAge = new int[5];
+		for(int i = 0; i < groupBirthYear.length; i++) {
+			
+			groupAge[0] =	2020 - groupBirthYear[i];
+			System.out.println(groupAge);
+		}
+			
+		
+		return groupAge[0];
+	}
+}

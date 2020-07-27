@@ -1,0 +1,25 @@
+package Chapter5;
+
+public class PrintingDiamond {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int i = 1;
+		String x = "*";
+		String space = " ";
+		for(; i <= 10; i++) {
+			
+			System.out.print('*');
+			System.out.print(' ');
+			System.out.println();
+			for(int j = i; j >= 1; j--) {
+				System.out.print('*');
+				
+			}
+		}
+		
+		
+	}
+
+}

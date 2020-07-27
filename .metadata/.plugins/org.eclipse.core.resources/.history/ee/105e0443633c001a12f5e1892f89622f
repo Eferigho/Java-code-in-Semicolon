@@ -1,0 +1,28 @@
+package Chapter5;
+
+public class TrianglePrinting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String x = "*";
+		//String y = "          ";
+		
+		 
+		
+		System.out.println("(a)\t\t(b)\t\t(c)\t\t(d)");
+		for(int i = 10; i >= 1; i--) {
+			
+			for(int j = 1; j <= i; j++ ) {
+				System.out.print('*');	
+			}
+			System.out.print(' ');
+			
+			System.out.println();
+			
+			
+		}		
+		
+	}
+
+}

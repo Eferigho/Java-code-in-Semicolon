@@ -1,0 +1,46 @@
+package Chapter5;
+import java.util.Scanner;
+public class WhileExple {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*int counter = 1;
+		
+		while(counter <= 5) {
+			if(counter !=3 ) {
+				System.out.println(counter+". Hello Nigeria");
+			}
+			else {
+				System.out.println(counter+". Hello Nigeria How are you doing");
+			}
+			counter++;
+		}*/
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter Any number");
+		int grade = input.nextInt();
+		if(grade >= 90) {
+			System.out.println("A");
+		}
+		else {
+				if(grade >= 80) {
+					System.out.println("B");
+				}
+				else {
+					if(grade >=70) {
+						System.out.println("C");
+					}
+					else {
+						if(grade >= 60) {
+							System.out.println("D");
+						}
+						else {
+							System.out.println("F");
+						}
+					}
+				}
+			}
+		
+	}
+
+}

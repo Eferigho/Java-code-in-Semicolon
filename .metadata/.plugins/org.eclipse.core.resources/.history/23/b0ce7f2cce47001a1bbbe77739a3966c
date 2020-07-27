@@ -1,0 +1,96 @@
+
+public class Television {
+
+	private int channelId;
+	private String channelName;
+	private int volume;
+	private boolean tvSate;
+	
+	
+	public String getChannelName(int channelId) {
+		if(channelId > 10){
+			channelId = 0;
+			channelName = "AV";
+		}
+		else if(channelId < 0) {
+			channelId = 10;
+			channelName = "BBC Pidgin";
+		}
+		else {
+			switch(channelId) {
+			case 1:
+				channelName =	"Channels TV";
+				break;
+			case 2:
+				channelName =	"NTA";
+				break;
+			case 3:
+				channelName =	"TVC";
+				break;
+			case 4:
+				channelName =	"Lagos TV";
+				break;
+			case 5:
+				channelName =	"Africa Independent Television";
+				break;
+			case 6:
+				channelName =	"Silver Bird Television";
+			case 7:
+				channelName = "CNN Africa";
+				break;
+			case 8:
+				channelName = "Bendel Brocasting Network";
+				break;
+			case 9:
+				channelName = "Oduduwa People Television";
+			case 10:
+				channelName = "BBC Pidgin";
+				break;
+			case 0:
+				channelName =	"AV";
+				break;
+			}
+			
+		}
+		return channelName;
+	}
+	public void setChannelName(String channelName) {
+		this.channelName = channelName;
+	}
+	
+	public String getChannelId() {
+		
+		return getChannelName(channelId);
+	}
+	public void setChannelId(int channelId) {
+		this.channelId = channelId;
+	}
+	
+
+	public int getVolume() {
+		return volume;
+	}
+	public void setVolume(int volume) {
+		this.volume = volume;
+	}
+	
+	
+	public boolean isTvSate() {
+		return tvSate;
+	}
+	public void setTvSate(boolean tvSate) {
+		this.tvSate = tvSate;
+	}
+	
+	public void changeChannelUp() {
+		channelId++;
+		getChannelName(channelId);
+	}
+	
+	public void changeChannelDown() {
+		channelId--;
+		getChannelName(channelId);
+	}
+	
+	
+}

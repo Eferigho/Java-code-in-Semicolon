@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;win&apos; in &apos;codewar2.CodeWars.main(...)&apos; to &apos;RowWin&apos;&#x0D;&#x0A;- Original project: &apos;codewar2&apos;&#x0D;&#x0A;- Original element: &apos;codewar2.CodeWars.main(String[]).win&apos;&#x0D;&#x0A;- Renamed element: &apos;win&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;win&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/coder2&lt;codewar2{CodeWars.java[CodeWars~main~\[QString;@win!231!250!239!241!Z!0!false" name="RowWin" references="true" stamp="1583118933354" version="1.0"/>
+</session>

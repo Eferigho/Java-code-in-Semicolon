@@ -1,0 +1,18 @@
+
+public class ArrayBarChart {
+
+	public static void main(String[] args) {
+		
+		int [] barChart = {10,15,20,31,45,55,58,64,78,80,92,};
+		
+		for(int counter= 0; counter < barChart.length; counter++) {
+			
+			for(int counter1 = 0; counter1 <= barChart[counter]; counter1++ ) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
+	}
+
+}

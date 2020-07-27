@@ -1,0 +1,7 @@
+1578407911803	Encapsulate field 'firstName'
+1578407986485	Encapsulate field 'lastName'
+1578408009880	Encapsulate field 'mothlySalary'
+1578408275902	Rename field 'mothlySalary'
+1578590537283	Encapsulate field 'accountNumber'
+1578590567742	Encapsulate field 'makeAndModel'
+1578590586500	Encapsulate field 'state'

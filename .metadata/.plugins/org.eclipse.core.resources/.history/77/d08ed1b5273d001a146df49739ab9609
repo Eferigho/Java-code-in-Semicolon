@@ -1,0 +1,51 @@
+package Chapter5;
+import java.util.Scanner;
+public class PrintingDiamond {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a = 10;
+		int b = a + 1;
+		int c = b = + 1; 
+		while(a > 0) {
+			
+			for(int i = 1; i <= a; i++) {
+				
+				System.out.print('*');
+				
+			}
+			for(b = 10; b >= a; b--) {
+				System.out.print(" ");
+			}
+			for(c = b+b+b; c > b; c--) {
+				System.out.print("*");
+			}
+			System.out.println();
+			a--;
+		}
+		
+		/*Write a program that collect a numbers that print the largest and the smallest
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter number to start count");
+		int i = input.nextInt();
+		
+		System.out.println("Enter number to compare");
+		int smallest = input.nextInt();
+		int largest = smallest;
+		for(int j =1; j < i; j++ ) {
+			System.out.println("Enter Number to compare");
+			int number = input.nextInt();
+			if(number < smallest) {
+				smallest = number;
+			}
+			if(number > largest) {
+				largest = number;
+			}
+		}
+		System.out.printf("The smallest number is : %d  and the largest is : %d",smallest,largest);*/
+
+		
+	}
+
+}

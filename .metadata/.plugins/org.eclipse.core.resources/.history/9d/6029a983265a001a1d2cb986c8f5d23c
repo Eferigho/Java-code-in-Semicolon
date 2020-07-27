@@ -1,0 +1,8 @@
+public class Sales{
+	public static void main(String...args) {
+		
+		int firstRange = 0;
+		System.out.printf("200 - 299 is : %d ",firstRange );
+	}
+	
+}

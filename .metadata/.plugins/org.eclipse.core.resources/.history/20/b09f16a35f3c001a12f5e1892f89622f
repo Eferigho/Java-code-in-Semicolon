@@ -1,0 +1,28 @@
+package Chapter5;
+
+public class CompoundInterest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int principal = 5;
+		int rate = 5; 
+		int rateCount = 1;
+		while(rateCount < 6) {
+			System.out.printf("%s%20s%n", "Year", "Amount on deposit");
+			System.out.printf("The Rate of : %d Percent%n",rate);
+			for (int year = 1; year <= 10; ++year) { 
+				long amount = principal * (int) Math.pow(1 + rate, year);
+				int dollar = (int) amount / 2;
+				int cent = (int) amount % 2;
+				
+				System.out.printf("%d    %d.%d%n", year, dollar,cent);
+				}
+			rate = rate + 1;
+			rateCount++;
+		}
+		
+		
+	}
+
+}
